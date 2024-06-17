@@ -47,14 +47,25 @@ This is a simple shopping cart checkout application built using Node.js, Sequeli
     ```
 
 ## Running the Application
-1. Run Sequelize migration to set up the database and seed it with initial data:
+1. Go to database folder:
     ```sh
-    npx sequelize-cli db:migrate
-    npx sequelize-cli db:seed:all
+    cd src
+    cd database
     ```
-2. Start the application:
+
+2. Run Sequelize migration to set up the database and seed it with initial data:
     ```sh
-    npm start
+    sequelize-cli db:migrate
+    sequelize-cli db:seed:all
+    ```
+2. Go to main folder:
+    ```sh
+    cd ..
+    cd ..
+    ```
+3. Start the application:
+    ```sh
+    node index.js
     ```
 3. The application will be running at `http://localhost:8000`.
 
