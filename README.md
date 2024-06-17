@@ -93,5 +93,6 @@ This is a simple shopping cart checkout application built using Node.js, Sequeli
     EMAIL=
     APP_PASSWORD=
     ```
-
+## Documentation Link
+    https://docs.google.com/document/d/1Ubjj5BknzZzE-N1sBWbeqbn0Vy22oBx6ALUear59tco/edit?usp=sharing
 ---
