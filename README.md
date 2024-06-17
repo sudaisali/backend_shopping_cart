@@ -22,7 +22,11 @@ This is a simple shopping cart checkout application built using Node.js, Sequeli
     https://github.com/sudaisali/frontend_shopping_checkout.git
     
     ```
-2. Install dependencies:
+2. Go to backend_shopping_cart:
+    ```sh
+    cd backend_shopping_cart
+    ```
+3. Install dependencies:
     ```sh
     npm install
     ```
