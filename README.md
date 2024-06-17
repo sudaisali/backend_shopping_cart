@@ -22,7 +22,11 @@ This is a simple shopping cart checkout application built using Node.js, Sequeli
     https://github.com/sudaisali/frontend_shopping_checkout.git
     
     ```
-2. Install dependencies:
+2. Go to backend_shopping_cart:
+    ```sh
+    cd backend_shopping_cart
+    ```
+3. Install dependencies:
     ```sh
     npm install
     ```
@@ -43,22 +47,36 @@ This is a simple shopping cart checkout application built using Node.js, Sequeli
     ```
 
 ## Running the Application
-1. Run Sequelize migration to set up the database and seed it with initial data:
+1. Install sequelize cli:
     ```sh
-    npx sequelize-cli db:migrate
-    npx sequelize-cli db:seed:all
+      npm install --save-dev sequelize-cli
     ```
-2. Start the application:
+
+2. Go to database folder:
     ```sh
-    npm start
+    cd src
+    cd database
     ```
-3. The application will be running at `http://localhost:8000`.
+
+3. Run Sequelize migration to set up the database and seed it with initial data:
+    ```sh
+    sequelize-cli db:migrate
+    sequelize-cli db:seed:all
+    ```
+4. Go to main folder:
+    ```sh
+    cd ..
+    ```
+5. Start the application:
+    ```sh
+    node index.js
+    ```
+6. The application will be running at `http://localhost:8000`.
 
 ## Stripe Integration
 1. Set up your Stripe API keys in the `.env` file:
     ```env
     STRIPE_SECRET_KEY=your_secret_key
-    STRIPE_PUBLISHABLE_KEY=your_publishable_key
     STRIPE_WEBHOOK_SECRET=your_webhook_secret
     RETURN_BASE_URL=your_return_base_url
     ```
@@ -79,5 +97,6 @@ This is a simple shopping cart checkout application built using Node.js, Sequeli
     EMAIL=
     APP_PASSWORD=
     ```
-
+## Documentation Link
+    https://docs.google.com/document/d/1Ubjj5BknzZzE-N1sBWbeqbn0Vy22oBx6ALUear59tco/edit?usp=sharing
 ---
