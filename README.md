@@ -73,7 +73,6 @@ This is a simple shopping cart checkout application built using Node.js, Sequeli
 1. Set up your Stripe API keys in the `.env` file:
     ```env
     STRIPE_SECRET_KEY=your_secret_key
-    STRIPE_PUBLISHABLE_KEY=your_publishable_key
     STRIPE_WEBHOOK_SECRET=your_webhook_secret
     RETURN_BASE_URL=your_return_base_url
     ```
