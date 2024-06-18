@@ -100,3 +100,6 @@ This is a simple shopping cart checkout application built using Node.js, Sequeli
 ## Documentation Link
     https://docs.google.com/document/d/1Ubjj5BknzZzE-N1sBWbeqbn0Vy22oBx6ALUear59tco/edit?usp=sharing
 ---
+
+## Video Link
+    https://drive.google.com/file/d/1VfKS6N2LZ9Pr8fRRQIs0OX_szKqCB46L/view?usp=sharing  
